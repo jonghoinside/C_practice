@@ -4,6 +4,8 @@
 #include <time.h>
 #include "solution.h"
 
+int* solution(int lottos[], size_t lottos_len, int win_nums[], size_t win_nums_len);
+
 int main(void){
 	int win_lotto[6] = {31, 10, 45, 1, 6, 19};
 //	srand(time(NULL));
