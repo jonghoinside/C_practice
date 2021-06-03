@@ -11,3 +11,4 @@ add_executable(prac05 practice05/main.c practice05/solution.c)  #  큰 수 만�
 add_executable(prac06 practice06/main.c practice06/solution.c)  #  소수 만들기
 add_executable(prac07 practice07/main.c practice07/solution.c)  #  로또의 최고 순위와 최저 순위
 add_executable(prac08 practice08/main.c practice08/solution.c)  #  약수의 개수와 덧셈
+add_executable(prac09 practice09/main.c practice09/solution.c)  #  N개의 최소공배수

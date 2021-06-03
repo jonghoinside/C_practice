@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/prac01.dir/practice01/main.c.o CMakeFiles/prac01.dir/practice01/solution.c.o  -o prac01 
