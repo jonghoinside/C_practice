@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/prac08.dir/all
 all: CMakeFiles/prac06.dir/all
 all: CMakeFiles/prac07.dir/all
 all: CMakeFiles/prac05.dir/all
@@ -69,6 +70,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/prac08.dir/clean
 clean: CMakeFiles/prac06.dir/clean
 clean: CMakeFiles/prac07.dir/clean
 clean: CMakeFiles/prac05.dir/clean
@@ -78,6 +80,33 @@ clean: CMakeFiles/prac02.dir/clean
 clean: CMakeFiles/prac01.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac08.dir
+
+# All Build rule for target.
+CMakeFiles/prac08.dir/all:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/depend
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target prac08"
+.PHONY : CMakeFiles/prac08.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac08.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac08.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/prac08.dir/rule
+
+# Convenience name for target.
+prac08: CMakeFiles/prac08.dir/rule
+
+.PHONY : prac08
+
+# clean rule for target.
+CMakeFiles/prac08.dir/clean:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/clean
+.PHONY : CMakeFiles/prac08.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/prac06.dir

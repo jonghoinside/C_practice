@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named prac08
+
+# Build rule for target.
+prac08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac08
+.PHONY : prac08
+
+# fast build rule for target.
+prac08/fast:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/build
+.PHONY : prac08/fast
+
+#=============================================================================
 # Target rules for targets named prac06
 
 # Build rule for target.
@@ -579,6 +592,60 @@ practice07/solution.c.s:
 	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/practice07/solution.c.s
 .PHONY : practice07/solution.c.s
 
+practice08/main.o: practice08/main.c.o
+
+.PHONY : practice08/main.o
+
+# target to build an object file
+practice08/main.c.o:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/practice08/main.c.o
+.PHONY : practice08/main.c.o
+
+practice08/main.i: practice08/main.c.i
+
+.PHONY : practice08/main.i
+
+# target to preprocess a source file
+practice08/main.c.i:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/practice08/main.c.i
+.PHONY : practice08/main.c.i
+
+practice08/main.s: practice08/main.c.s
+
+.PHONY : practice08/main.s
+
+# target to generate assembly for a file
+practice08/main.c.s:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/practice08/main.c.s
+.PHONY : practice08/main.c.s
+
+practice08/solution.o: practice08/solution.c.o
+
+.PHONY : practice08/solution.o
+
+# target to build an object file
+practice08/solution.c.o:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/practice08/solution.c.o
+.PHONY : practice08/solution.c.o
+
+practice08/solution.i: practice08/solution.c.i
+
+.PHONY : practice08/solution.i
+
+# target to preprocess a source file
+practice08/solution.c.i:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/practice08/solution.c.i
+.PHONY : practice08/solution.c.i
+
+practice08/solution.s: practice08/solution.c.s
+
+.PHONY : practice08/solution.s
+
+# target to generate assembly for a file
+practice08/solution.c.s:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/practice08/solution.c.s
+.PHONY : practice08/solution.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -586,6 +653,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... prac08"
 	@echo "... prac06"
 	@echo "... prac07"
 	@echo "... prac05"
@@ -636,6 +704,12 @@ help:
 	@echo "... practice07/solution.o"
 	@echo "... practice07/solution.i"
 	@echo "... practice07/solution.s"
+	@echo "... practice08/main.o"
+	@echo "... practice08/main.i"
+	@echo "... practice08/main.s"
+	@echo "... practice08/solution.o"
+	@echo "... practice08/solution.i"
+	@echo "... practice08/solution.s"
 .PHONY : help
 
 

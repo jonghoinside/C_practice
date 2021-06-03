@@ -1,4 +1,5 @@
 /mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles/prac08.dir
 /mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles/prac06.dir
 /mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles/prac07.dir
 /mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/CMakeFiles/prac05.dir
