@@ -55,10 +55,12 @@ CMAKE_BINARY_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-b
 # The main recursive "all" target.
 all: CMakeFiles/prac09.dir/all
 all: CMakeFiles/prac08.dir/all
+all: CMakeFiles/prac10.dir/all
 all: CMakeFiles/prac06.dir/all
 all: CMakeFiles/prac07.dir/all
 all: CMakeFiles/prac05.dir/all
 all: CMakeFiles/prac04.dir/all
+all: CMakeFiles/prac11.dir/all
 all: CMakeFiles/prac03.dir/all
 all: CMakeFiles/prac02.dir/all
 all: CMakeFiles/prac01.dir/all
@@ -73,10 +75,12 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/prac09.dir/clean
 clean: CMakeFiles/prac08.dir/clean
+clean: CMakeFiles/prac10.dir/clean
 clean: CMakeFiles/prac06.dir/clean
 clean: CMakeFiles/prac07.dir/clean
 clean: CMakeFiles/prac05.dir/clean
 clean: CMakeFiles/prac04.dir/clean
+clean: CMakeFiles/prac11.dir/clean
 clean: CMakeFiles/prac03.dir/clean
 clean: CMakeFiles/prac02.dir/clean
 clean: CMakeFiles/prac01.dir/clean
@@ -136,6 +140,33 @@ prac08: CMakeFiles/prac08.dir/rule
 CMakeFiles/prac08.dir/clean:
 	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/clean
 .PHONY : CMakeFiles/prac08.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac10.dir
+
+# All Build rule for target.
+CMakeFiles/prac10.dir/all:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/depend
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=28,29,30 "Built target prac10"
+.PHONY : CMakeFiles/prac10.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac10.dir/rule
+
+# Convenience name for target.
+prac10: CMakeFiles/prac10.dir/rule
+
+.PHONY : prac10
+
+# clean rule for target.
+CMakeFiles/prac10.dir/clean:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/clean
+.PHONY : CMakeFiles/prac10.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/prac06.dir
@@ -244,6 +275,33 @@ prac04: CMakeFiles/prac04.dir/rule
 CMakeFiles/prac04.dir/clean:
 	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/clean
 .PHONY : CMakeFiles/prac04.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac11.dir
+
+# All Build rule for target.
+CMakeFiles/prac11.dir/all:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/depend
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=31,32,33 "Built target prac11"
+.PHONY : CMakeFiles/prac11.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac11.dir/rule
+
+# Convenience name for target.
+prac11: CMakeFiles/prac11.dir/rule
+
+.PHONY : prac11
+
+# clean rule for target.
+CMakeFiles/prac11.dir/clean:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/clean
+.PHONY : CMakeFiles/prac11.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/prac03.dir

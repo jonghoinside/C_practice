@@ -137,6 +137,19 @@ prac08/fast:
 .PHONY : prac08/fast
 
 #=============================================================================
+# Target rules for targets named prac10
+
+# Build rule for target.
+prac10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac10
+.PHONY : prac10
+
+# fast build rule for target.
+prac10/fast:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/build
+.PHONY : prac10/fast
+
+#=============================================================================
 # Target rules for targets named prac06
 
 # Build rule for target.
@@ -187,6 +200,19 @@ prac04: cmake_check_build_system
 prac04/fast:
 	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/build
 .PHONY : prac04/fast
+
+#=============================================================================
+# Target rules for targets named prac11
+
+# Build rule for target.
+prac11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac11
+.PHONY : prac11
+
+# fast build rule for target.
+prac11/fast:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/build
+.PHONY : prac11/fast
 
 #=============================================================================
 # Target rules for targets named prac03
@@ -713,6 +739,114 @@ practice09/solution.c.s:
 	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/practice09/solution.c.s
 .PHONY : practice09/solution.c.s
 
+practice10/main.o: practice10/main.c.o
+
+.PHONY : practice10/main.o
+
+# target to build an object file
+practice10/main.c.o:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/practice10/main.c.o
+.PHONY : practice10/main.c.o
+
+practice10/main.i: practice10/main.c.i
+
+.PHONY : practice10/main.i
+
+# target to preprocess a source file
+practice10/main.c.i:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/practice10/main.c.i
+.PHONY : practice10/main.c.i
+
+practice10/main.s: practice10/main.c.s
+
+.PHONY : practice10/main.s
+
+# target to generate assembly for a file
+practice10/main.c.s:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/practice10/main.c.s
+.PHONY : practice10/main.c.s
+
+practice10/solution.o: practice10/solution.c.o
+
+.PHONY : practice10/solution.o
+
+# target to build an object file
+practice10/solution.c.o:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/practice10/solution.c.o
+.PHONY : practice10/solution.c.o
+
+practice10/solution.i: practice10/solution.c.i
+
+.PHONY : practice10/solution.i
+
+# target to preprocess a source file
+practice10/solution.c.i:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/practice10/solution.c.i
+.PHONY : practice10/solution.c.i
+
+practice10/solution.s: practice10/solution.c.s
+
+.PHONY : practice10/solution.s
+
+# target to generate assembly for a file
+practice10/solution.c.s:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/practice10/solution.c.s
+.PHONY : practice10/solution.c.s
+
+practice11/main.o: practice11/main.c.o
+
+.PHONY : practice11/main.o
+
+# target to build an object file
+practice11/main.c.o:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/practice11/main.c.o
+.PHONY : practice11/main.c.o
+
+practice11/main.i: practice11/main.c.i
+
+.PHONY : practice11/main.i
+
+# target to preprocess a source file
+practice11/main.c.i:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/practice11/main.c.i
+.PHONY : practice11/main.c.i
+
+practice11/main.s: practice11/main.c.s
+
+.PHONY : practice11/main.s
+
+# target to generate assembly for a file
+practice11/main.c.s:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/practice11/main.c.s
+.PHONY : practice11/main.c.s
+
+practice11/solution.o: practice11/solution.c.o
+
+.PHONY : practice11/solution.o
+
+# target to build an object file
+practice11/solution.c.o:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/practice11/solution.c.o
+.PHONY : practice11/solution.c.o
+
+practice11/solution.i: practice11/solution.c.i
+
+.PHONY : practice11/solution.i
+
+# target to preprocess a source file
+practice11/solution.c.i:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/practice11/solution.c.i
+.PHONY : practice11/solution.c.i
+
+practice11/solution.s: practice11/solution.c.s
+
+.PHONY : practice11/solution.s
+
+# target to generate assembly for a file
+practice11/solution.c.s:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/practice11/solution.c.s
+.PHONY : practice11/solution.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -722,10 +856,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... prac09"
 	@echo "... prac08"
+	@echo "... prac10"
 	@echo "... prac06"
 	@echo "... prac07"
 	@echo "... prac05"
 	@echo "... prac04"
+	@echo "... prac11"
 	@echo "... prac03"
 	@echo "... prac02"
 	@echo "... rebuild_cache"
@@ -784,6 +920,18 @@ help:
 	@echo "... practice09/solution.o"
 	@echo "... practice09/solution.i"
 	@echo "... practice09/solution.s"
+	@echo "... practice10/main.o"
+	@echo "... practice10/main.i"
+	@echo "... practice10/main.s"
+	@echo "... practice10/solution.o"
+	@echo "... practice10/solution.i"
+	@echo "... practice10/solution.s"
+	@echo "... practice11/main.o"
+	@echo "... practice11/main.i"
+	@echo "... practice11/main.s"
+	@echo "... practice11/solution.o"
+	@echo "... practice11/solution.i"
+	@echo "... practice11/solution.s"
 .PHONY : help
 
 

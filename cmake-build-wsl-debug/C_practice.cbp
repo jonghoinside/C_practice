@@ -115,6 +115,50 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="prac10">
+				<Option output="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/prac10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 prac10"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac10/fast">
+				<Option output="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/prac10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 prac10/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="prac06">
 				<Option output="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/prac06" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug"/>
@@ -286,6 +330,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 prac04/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac11">
+				<Option output="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/prac11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 prac11"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac11/fast">
+				<Option output="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/prac11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 prac11/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ajh07/Desktop/Github\ portfolio/practice/cmake-build-wsl-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -487,6 +575,18 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/practice09/solution.c">
 			<Option target="prac09"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/practice10/main.c">
+			<Option target="prac10"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/practice10/solution.c">
+			<Option target="prac10"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/practice11/main.c">
+			<Option target="prac11"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/practice11/solution.c">
+			<Option target="prac11"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
