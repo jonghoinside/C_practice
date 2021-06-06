@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-b
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,108 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named prac09
+# Target rules for targets named prac02
 
 # Build rule for target.
-prac09: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac09
-.PHONY : prac09
+prac02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac02
+.PHONY : prac02
 
 # fast build rule for target.
-prac09/fast:
-	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/build
-.PHONY : prac09/fast
-
-#=============================================================================
-# Target rules for targets named prac08
-
-# Build rule for target.
-prac08: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac08
-.PHONY : prac08
-
-# fast build rule for target.
-prac08/fast:
-	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/build
-.PHONY : prac08/fast
-
-#=============================================================================
-# Target rules for targets named prac10
-
-# Build rule for target.
-prac10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac10
-.PHONY : prac10
-
-# fast build rule for target.
-prac10/fast:
-	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/build
-.PHONY : prac10/fast
-
-#=============================================================================
-# Target rules for targets named prac06
-
-# Build rule for target.
-prac06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac06
-.PHONY : prac06
-
-# fast build rule for target.
-prac06/fast:
-	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/build
-.PHONY : prac06/fast
-
-#=============================================================================
-# Target rules for targets named prac07
-
-# Build rule for target.
-prac07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac07
-.PHONY : prac07
-
-# fast build rule for target.
-prac07/fast:
-	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/build
-.PHONY : prac07/fast
-
-#=============================================================================
-# Target rules for targets named prac05
-
-# Build rule for target.
-prac05: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac05
-.PHONY : prac05
-
-# fast build rule for target.
-prac05/fast:
-	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/build
-.PHONY : prac05/fast
-
-#=============================================================================
-# Target rules for targets named prac04
-
-# Build rule for target.
-prac04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac04
-.PHONY : prac04
-
-# fast build rule for target.
-prac04/fast:
-	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/build
-.PHONY : prac04/fast
-
-#=============================================================================
-# Target rules for targets named prac11
-
-# Build rule for target.
-prac11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac11
-.PHONY : prac11
-
-# fast build rule for target.
-prac11/fast:
-	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/build
-.PHONY : prac11/fast
+prac02/fast:
+	$(MAKE) -f CMakeFiles/prac02.dir/build.make CMakeFiles/prac02.dir/build
+.PHONY : prac02/fast
 
 #=============================================================================
 # Target rules for targets named prac03
@@ -228,19 +137,6 @@ prac03/fast:
 .PHONY : prac03/fast
 
 #=============================================================================
-# Target rules for targets named prac02
-
-# Build rule for target.
-prac02: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac02
-.PHONY : prac02
-
-# fast build rule for target.
-prac02/fast:
-	$(MAKE) -f CMakeFiles/prac02.dir/build.make CMakeFiles/prac02.dir/build
-.PHONY : prac02/fast
-
-#=============================================================================
 # Target rules for targets named prac01
 
 # Build rule for target.
@@ -252,6 +148,123 @@ prac01: cmake_check_build_system
 prac01/fast:
 	$(MAKE) -f CMakeFiles/prac01.dir/build.make CMakeFiles/prac01.dir/build
 .PHONY : prac01/fast
+
+#=============================================================================
+# Target rules for targets named prac12
+
+# Build rule for target.
+prac12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac12
+.PHONY : prac12
+
+# fast build rule for target.
+prac12/fast:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/build
+.PHONY : prac12/fast
+
+#=============================================================================
+# Target rules for targets named prac04
+
+# Build rule for target.
+prac04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac04
+.PHONY : prac04
+
+# fast build rule for target.
+prac04/fast:
+	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/build
+.PHONY : prac04/fast
+
+#=============================================================================
+# Target rules for targets named prac05
+
+# Build rule for target.
+prac05: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac05
+.PHONY : prac05
+
+# fast build rule for target.
+prac05/fast:
+	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/build
+.PHONY : prac05/fast
+
+#=============================================================================
+# Target rules for targets named prac07
+
+# Build rule for target.
+prac07: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac07
+.PHONY : prac07
+
+# fast build rule for target.
+prac07/fast:
+	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/build
+.PHONY : prac07/fast
+
+#=============================================================================
+# Target rules for targets named prac06
+
+# Build rule for target.
+prac06: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac06
+.PHONY : prac06
+
+# fast build rule for target.
+prac06/fast:
+	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/build
+.PHONY : prac06/fast
+
+#=============================================================================
+# Target rules for targets named prac10
+
+# Build rule for target.
+prac10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac10
+.PHONY : prac10
+
+# fast build rule for target.
+prac10/fast:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/build
+.PHONY : prac10/fast
+
+#=============================================================================
+# Target rules for targets named prac08
+
+# Build rule for target.
+prac08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac08
+.PHONY : prac08
+
+# fast build rule for target.
+prac08/fast:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/build
+.PHONY : prac08/fast
+
+#=============================================================================
+# Target rules for targets named prac11
+
+# Build rule for target.
+prac11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac11
+.PHONY : prac11
+
+# fast build rule for target.
+prac11/fast:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/build
+.PHONY : prac11/fast
+
+#=============================================================================
+# Target rules for targets named prac09
+
+# Build rule for target.
+prac09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac09
+.PHONY : prac09
+
+# fast build rule for target.
+prac09/fast:
+	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/build
+.PHONY : prac09/fast
 
 practice01/main.o: practice01/main.c.o
 
@@ -847,25 +860,80 @@ practice11/solution.c.s:
 	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/practice11/solution.c.s
 .PHONY : practice11/solution.c.s
 
+practice12/main.o: practice12/main.c.o
+
+.PHONY : practice12/main.o
+
+# target to build an object file
+practice12/main.c.o:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/practice12/main.c.o
+.PHONY : practice12/main.c.o
+
+practice12/main.i: practice12/main.c.i
+
+.PHONY : practice12/main.i
+
+# target to preprocess a source file
+practice12/main.c.i:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/practice12/main.c.i
+.PHONY : practice12/main.c.i
+
+practice12/main.s: practice12/main.c.s
+
+.PHONY : practice12/main.s
+
+# target to generate assembly for a file
+practice12/main.c.s:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/practice12/main.c.s
+.PHONY : practice12/main.c.s
+
+practice12/solution.o: practice12/solution.c.o
+
+.PHONY : practice12/solution.o
+
+# target to build an object file
+practice12/solution.c.o:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/practice12/solution.c.o
+.PHONY : practice12/solution.c.o
+
+practice12/solution.i: practice12/solution.c.i
+
+.PHONY : practice12/solution.i
+
+# target to preprocess a source file
+practice12/solution.c.i:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/practice12/solution.c.i
+.PHONY : practice12/solution.c.i
+
+practice12/solution.s: practice12/solution.c.s
+
+.PHONY : practice12/solution.s
+
+# target to generate assembly for a file
+practice12/solution.c.s:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/practice12/solution.c.s
+.PHONY : practice12/solution.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... prac09"
-	@echo "... prac08"
-	@echo "... prac10"
-	@echo "... prac06"
-	@echo "... prac07"
-	@echo "... prac05"
-	@echo "... prac04"
-	@echo "... prac11"
-	@echo "... prac03"
 	@echo "... prac02"
-	@echo "... rebuild_cache"
+	@echo "... prac03"
 	@echo "... prac01"
+	@echo "... prac12"
+	@echo "... prac04"
+	@echo "... prac05"
+	@echo "... prac07"
+	@echo "... prac06"
+	@echo "... prac10"
+	@echo "... prac08"
+	@echo "... rebuild_cache"
+	@echo "... prac11"
+	@echo "... prac09"
+	@echo "... edit_cache"
 	@echo "... practice01/main.o"
 	@echo "... practice01/main.i"
 	@echo "... practice01/main.s"
@@ -932,6 +1000,12 @@ help:
 	@echo "... practice11/solution.o"
 	@echo "... practice11/solution.i"
 	@echo "... practice11/solution.s"
+	@echo "... practice12/main.o"
+	@echo "... practice12/main.i"
+	@echo "... practice12/main.s"
+	@echo "... practice12/solution.o"
+	@echo "... practice12/solution.i"
+	@echo "... practice12/solution.s"
 .PHONY : help
 
 

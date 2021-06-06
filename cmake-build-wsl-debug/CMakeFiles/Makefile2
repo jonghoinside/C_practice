@@ -53,17 +53,18 @@ CMAKE_BINARY_DIR = "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-b
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/prac09.dir/all
-all: CMakeFiles/prac08.dir/all
-all: CMakeFiles/prac10.dir/all
-all: CMakeFiles/prac06.dir/all
-all: CMakeFiles/prac07.dir/all
-all: CMakeFiles/prac05.dir/all
-all: CMakeFiles/prac04.dir/all
-all: CMakeFiles/prac11.dir/all
-all: CMakeFiles/prac03.dir/all
 all: CMakeFiles/prac02.dir/all
+all: CMakeFiles/prac03.dir/all
 all: CMakeFiles/prac01.dir/all
+all: CMakeFiles/prac12.dir/all
+all: CMakeFiles/prac04.dir/all
+all: CMakeFiles/prac05.dir/all
+all: CMakeFiles/prac07.dir/all
+all: CMakeFiles/prac06.dir/all
+all: CMakeFiles/prac10.dir/all
+all: CMakeFiles/prac08.dir/all
+all: CMakeFiles/prac11.dir/all
+all: CMakeFiles/prac09.dir/all
 
 .PHONY : all
 
@@ -73,262 +74,20 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/prac09.dir/clean
-clean: CMakeFiles/prac08.dir/clean
-clean: CMakeFiles/prac10.dir/clean
-clean: CMakeFiles/prac06.dir/clean
-clean: CMakeFiles/prac07.dir/clean
-clean: CMakeFiles/prac05.dir/clean
-clean: CMakeFiles/prac04.dir/clean
-clean: CMakeFiles/prac11.dir/clean
-clean: CMakeFiles/prac03.dir/clean
 clean: CMakeFiles/prac02.dir/clean
+clean: CMakeFiles/prac03.dir/clean
 clean: CMakeFiles/prac01.dir/clean
+clean: CMakeFiles/prac12.dir/clean
+clean: CMakeFiles/prac04.dir/clean
+clean: CMakeFiles/prac05.dir/clean
+clean: CMakeFiles/prac07.dir/clean
+clean: CMakeFiles/prac06.dir/clean
+clean: CMakeFiles/prac10.dir/clean
+clean: CMakeFiles/prac08.dir/clean
+clean: CMakeFiles/prac11.dir/clean
+clean: CMakeFiles/prac09.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac09.dir
-
-# All Build rule for target.
-CMakeFiles/prac09.dir/all:
-	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/depend
-	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=25,26,27 "Built target prac09"
-.PHONY : CMakeFiles/prac09.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac09.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac09.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac09.dir/rule
-
-# Convenience name for target.
-prac09: CMakeFiles/prac09.dir/rule
-
-.PHONY : prac09
-
-# clean rule for target.
-CMakeFiles/prac09.dir/clean:
-	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/clean
-.PHONY : CMakeFiles/prac09.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac08.dir
-
-# All Build rule for target.
-CMakeFiles/prac08.dir/all:
-	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/depend
-	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=22,23,24 "Built target prac08"
-.PHONY : CMakeFiles/prac08.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac08.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac08.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac08.dir/rule
-
-# Convenience name for target.
-prac08: CMakeFiles/prac08.dir/rule
-
-.PHONY : prac08
-
-# clean rule for target.
-CMakeFiles/prac08.dir/clean:
-	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/clean
-.PHONY : CMakeFiles/prac08.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac10.dir
-
-# All Build rule for target.
-CMakeFiles/prac10.dir/all:
-	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/depend
-	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=28,29,30 "Built target prac10"
-.PHONY : CMakeFiles/prac10.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac10.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac10.dir/rule
-
-# Convenience name for target.
-prac10: CMakeFiles/prac10.dir/rule
-
-.PHONY : prac10
-
-# clean rule for target.
-CMakeFiles/prac10.dir/clean:
-	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/clean
-.PHONY : CMakeFiles/prac10.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac06.dir
-
-# All Build rule for target.
-CMakeFiles/prac06.dir/all:
-	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/depend
-	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=16,17,18 "Built target prac06"
-.PHONY : CMakeFiles/prac06.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac06.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac06.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac06.dir/rule
-
-# Convenience name for target.
-prac06: CMakeFiles/prac06.dir/rule
-
-.PHONY : prac06
-
-# clean rule for target.
-CMakeFiles/prac06.dir/clean:
-	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/clean
-.PHONY : CMakeFiles/prac06.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac07.dir
-
-# All Build rule for target.
-CMakeFiles/prac07.dir/all:
-	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/depend
-	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=19,20,21 "Built target prac07"
-.PHONY : CMakeFiles/prac07.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac07.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac07.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac07.dir/rule
-
-# Convenience name for target.
-prac07: CMakeFiles/prac07.dir/rule
-
-.PHONY : prac07
-
-# clean rule for target.
-CMakeFiles/prac07.dir/clean:
-	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/clean
-.PHONY : CMakeFiles/prac07.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac05.dir
-
-# All Build rule for target.
-CMakeFiles/prac05.dir/all:
-	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/depend
-	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=13,14,15 "Built target prac05"
-.PHONY : CMakeFiles/prac05.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac05.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac05.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac05.dir/rule
-
-# Convenience name for target.
-prac05: CMakeFiles/prac05.dir/rule
-
-.PHONY : prac05
-
-# clean rule for target.
-CMakeFiles/prac05.dir/clean:
-	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/clean
-.PHONY : CMakeFiles/prac05.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac04.dir
-
-# All Build rule for target.
-CMakeFiles/prac04.dir/all:
-	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/depend
-	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=10,11,12 "Built target prac04"
-.PHONY : CMakeFiles/prac04.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac04.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac04.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac04.dir/rule
-
-# Convenience name for target.
-prac04: CMakeFiles/prac04.dir/rule
-
-.PHONY : prac04
-
-# clean rule for target.
-CMakeFiles/prac04.dir/clean:
-	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/clean
-.PHONY : CMakeFiles/prac04.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac11.dir
-
-# All Build rule for target.
-CMakeFiles/prac11.dir/all:
-	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/depend
-	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=31,32,33 "Built target prac11"
-.PHONY : CMakeFiles/prac11.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac11.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac11.dir/rule
-
-# Convenience name for target.
-prac11: CMakeFiles/prac11.dir/rule
-
-.PHONY : prac11
-
-# clean rule for target.
-CMakeFiles/prac11.dir/clean:
-	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/clean
-.PHONY : CMakeFiles/prac11.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac03.dir
-
-# All Build rule for target.
-CMakeFiles/prac03.dir/all:
-	$(MAKE) -f CMakeFiles/prac03.dir/build.make CMakeFiles/prac03.dir/depend
-	$(MAKE) -f CMakeFiles/prac03.dir/build.make CMakeFiles/prac03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=7,8,9 "Built target prac03"
-.PHONY : CMakeFiles/prac03.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac03.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/prac03.dir/rule
-
-# Convenience name for target.
-prac03: CMakeFiles/prac03.dir/rule
-
-.PHONY : prac03
-
-# clean rule for target.
-CMakeFiles/prac03.dir/clean:
-	$(MAKE) -f CMakeFiles/prac03.dir/build.make CMakeFiles/prac03.dir/clean
-.PHONY : CMakeFiles/prac03.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/prac02.dir
@@ -358,6 +117,33 @@ CMakeFiles/prac02.dir/clean:
 .PHONY : CMakeFiles/prac02.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/prac03.dir
+
+# All Build rule for target.
+CMakeFiles/prac03.dir/all:
+	$(MAKE) -f CMakeFiles/prac03.dir/build.make CMakeFiles/prac03.dir/depend
+	$(MAKE) -f CMakeFiles/prac03.dir/build.make CMakeFiles/prac03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=7,8,9 "Built target prac03"
+.PHONY : CMakeFiles/prac03.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac03.dir/rule
+
+# Convenience name for target.
+prac03: CMakeFiles/prac03.dir/rule
+
+.PHONY : prac03
+
+# clean rule for target.
+CMakeFiles/prac03.dir/clean:
+	$(MAKE) -f CMakeFiles/prac03.dir/build.make CMakeFiles/prac03.dir/clean
+.PHONY : CMakeFiles/prac03.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/prac01.dir
 
 # All Build rule for target.
@@ -383,6 +169,249 @@ prac01: CMakeFiles/prac01.dir/rule
 CMakeFiles/prac01.dir/clean:
 	$(MAKE) -f CMakeFiles/prac01.dir/build.make CMakeFiles/prac01.dir/clean
 .PHONY : CMakeFiles/prac01.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac12.dir
+
+# All Build rule for target.
+CMakeFiles/prac12.dir/all:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/depend
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=34,35,36 "Built target prac12"
+.PHONY : CMakeFiles/prac12.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac12.dir/rule
+
+# Convenience name for target.
+prac12: CMakeFiles/prac12.dir/rule
+
+.PHONY : prac12
+
+# clean rule for target.
+CMakeFiles/prac12.dir/clean:
+	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/clean
+.PHONY : CMakeFiles/prac12.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac04.dir
+
+# All Build rule for target.
+CMakeFiles/prac04.dir/all:
+	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/depend
+	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=10,11,12 "Built target prac04"
+.PHONY : CMakeFiles/prac04.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac04.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac04.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac04.dir/rule
+
+# Convenience name for target.
+prac04: CMakeFiles/prac04.dir/rule
+
+.PHONY : prac04
+
+# clean rule for target.
+CMakeFiles/prac04.dir/clean:
+	$(MAKE) -f CMakeFiles/prac04.dir/build.make CMakeFiles/prac04.dir/clean
+.PHONY : CMakeFiles/prac04.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac05.dir
+
+# All Build rule for target.
+CMakeFiles/prac05.dir/all:
+	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/depend
+	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=13,14,15 "Built target prac05"
+.PHONY : CMakeFiles/prac05.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac05.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac05.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac05.dir/rule
+
+# Convenience name for target.
+prac05: CMakeFiles/prac05.dir/rule
+
+.PHONY : prac05
+
+# clean rule for target.
+CMakeFiles/prac05.dir/clean:
+	$(MAKE) -f CMakeFiles/prac05.dir/build.make CMakeFiles/prac05.dir/clean
+.PHONY : CMakeFiles/prac05.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac07.dir
+
+# All Build rule for target.
+CMakeFiles/prac07.dir/all:
+	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/depend
+	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=19,20,21 "Built target prac07"
+.PHONY : CMakeFiles/prac07.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac07.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac07.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac07.dir/rule
+
+# Convenience name for target.
+prac07: CMakeFiles/prac07.dir/rule
+
+.PHONY : prac07
+
+# clean rule for target.
+CMakeFiles/prac07.dir/clean:
+	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/clean
+.PHONY : CMakeFiles/prac07.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac06.dir
+
+# All Build rule for target.
+CMakeFiles/prac06.dir/all:
+	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/depend
+	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=16,17,18 "Built target prac06"
+.PHONY : CMakeFiles/prac06.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac06.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac06.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac06.dir/rule
+
+# Convenience name for target.
+prac06: CMakeFiles/prac06.dir/rule
+
+.PHONY : prac06
+
+# clean rule for target.
+CMakeFiles/prac06.dir/clean:
+	$(MAKE) -f CMakeFiles/prac06.dir/build.make CMakeFiles/prac06.dir/clean
+.PHONY : CMakeFiles/prac06.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac10.dir
+
+# All Build rule for target.
+CMakeFiles/prac10.dir/all:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/depend
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=28,29,30 "Built target prac10"
+.PHONY : CMakeFiles/prac10.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac10.dir/rule
+
+# Convenience name for target.
+prac10: CMakeFiles/prac10.dir/rule
+
+.PHONY : prac10
+
+# clean rule for target.
+CMakeFiles/prac10.dir/clean:
+	$(MAKE) -f CMakeFiles/prac10.dir/build.make CMakeFiles/prac10.dir/clean
+.PHONY : CMakeFiles/prac10.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac08.dir
+
+# All Build rule for target.
+CMakeFiles/prac08.dir/all:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/depend
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=22,23,24 "Built target prac08"
+.PHONY : CMakeFiles/prac08.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac08.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac08.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac08.dir/rule
+
+# Convenience name for target.
+prac08: CMakeFiles/prac08.dir/rule
+
+.PHONY : prac08
+
+# clean rule for target.
+CMakeFiles/prac08.dir/clean:
+	$(MAKE) -f CMakeFiles/prac08.dir/build.make CMakeFiles/prac08.dir/clean
+.PHONY : CMakeFiles/prac08.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac11.dir
+
+# All Build rule for target.
+CMakeFiles/prac11.dir/all:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/depend
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=31,32,33 "Built target prac11"
+.PHONY : CMakeFiles/prac11.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac11.dir/rule
+
+# Convenience name for target.
+prac11: CMakeFiles/prac11.dir/rule
+
+.PHONY : prac11
+
+# clean rule for target.
+CMakeFiles/prac11.dir/clean:
+	$(MAKE) -f CMakeFiles/prac11.dir/build.make CMakeFiles/prac11.dir/clean
+.PHONY : CMakeFiles/prac11.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac09.dir
+
+# All Build rule for target.
+CMakeFiles/prac09.dir/all:
+	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/depend
+	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" --progress-num=25,26,27 "Built target prac09"
+.PHONY : CMakeFiles/prac09.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac09.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac09.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/ajh07/Desktop/Github portfolio/practice/cmake-build-wsl-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/prac09.dir/rule
+
+# Convenience name for target.
+prac09: CMakeFiles/prac09.dir/rule
+
+.PHONY : prac09
+
+# clean rule for target.
+CMakeFiles/prac09.dir/clean:
+	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/clean
+.PHONY : CMakeFiles/prac09.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
