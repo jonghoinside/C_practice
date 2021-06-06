@@ -89,6 +89,7 @@ int solution(const char* dirs) {
 
 
 
+/*
 
 //
 // Created by ajh07 on 2021-06-05.
@@ -134,3 +135,4 @@ int solution(const char* dirs) {
 
     return t - answer;
 }
+ */
