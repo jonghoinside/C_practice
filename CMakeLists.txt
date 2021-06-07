@@ -15,3 +15,4 @@ add_executable(prac09 practice09/main.c practice09/solution.c)  #  N개의 최�
 add_executable(prac10 practice10/main.c practice10/solution.c)  #  최솟값 만들기
 add_executable(prac11 practice11/main.c practice11/solution.c)  #  방문 길이
 add_executable(prac12 practice12/main.c practice12/solution.c)  #  가장 큰 수
+add_executable(prac13 practice13/main.c practice13/solution.c)  #  스킬 트리

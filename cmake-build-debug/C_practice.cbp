@@ -17,18 +17,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac08">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac08" prefix_auto="0" extension_auto="0"/>
+			<Target title="prac02">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac02" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -43,14 +33,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac08"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac02"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="prac08/fast">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac08" prefix_auto="0" extension_auto="0"/>
+			<Target title="prac02/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac02" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -65,183 +55,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac08/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac06">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac06" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac06"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac06/fast">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac06" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac06/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac07">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac07" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac07"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac07/fast">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac07" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac07/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac05">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac05" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac05"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac05/fast">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac05" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac05/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac04">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac04" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac04"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac04/fast">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac04" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac04/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac02/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -291,60 +105,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="prac02">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac02" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac02"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac02/fast">
-				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac02" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac02/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="prac01">
 				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac01" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
@@ -384,6 +144,466 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac12">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac12/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac04">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac04/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac05">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac05/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac06">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac06/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac10">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac10/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac08">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac08/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac11">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac11/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac09">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac09"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac09/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac09/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac07">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac07/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac13">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac13/fast">
+				<Option output="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/prac13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac13/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/user/Desktop/Github/C_practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -437,6 +657,36 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice08/solution.c">
 			<Option target="prac08"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice09/main.c">
+			<Option target="prac09"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice09/solution.c">
+			<Option target="prac09"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice10/main.c">
+			<Option target="prac10"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice10/solution.c">
+			<Option target="prac10"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice11/main.c">
+			<Option target="prac11"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice11/solution.c">
+			<Option target="prac11"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice12/main.c">
+			<Option target="prac12"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice12/solution.c">
+			<Option target="prac12"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice13/main.c">
+			<Option target="prac13"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/practice13/solution.c">
+			<Option target="prac13"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/user/Desktop/Github/C_practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
