@@ -189,19 +189,6 @@ prac05/fast:
 .PHONY : prac05/fast
 
 #=============================================================================
-# Target rules for targets named prac07
-
-# Build rule for target.
-prac07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 prac07
-.PHONY : prac07
-
-# fast build rule for target.
-prac07/fast:
-	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/build
-.PHONY : prac07/fast
-
-#=============================================================================
 # Target rules for targets named prac06
 
 # Build rule for target.
@@ -265,6 +252,32 @@ prac09: cmake_check_build_system
 prac09/fast:
 	$(MAKE) -f CMakeFiles/prac09.dir/build.make CMakeFiles/prac09.dir/build
 .PHONY : prac09/fast
+
+#=============================================================================
+# Target rules for targets named prac07
+
+# Build rule for target.
+prac07: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac07
+.PHONY : prac07
+
+# fast build rule for target.
+prac07/fast:
+	$(MAKE) -f CMakeFiles/prac07.dir/build.make CMakeFiles/prac07.dir/build
+.PHONY : prac07/fast
+
+#=============================================================================
+# Target rules for targets named prac13
+
+# Build rule for target.
+prac13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac13
+.PHONY : prac13
+
+# fast build rule for target.
+prac13/fast:
+	$(MAKE) -f CMakeFiles/prac13.dir/build.make CMakeFiles/prac13.dir/build
+.PHONY : prac13/fast
 
 practice01/main.o: practice01/main.c.o
 
@@ -914,6 +927,60 @@ practice12/solution.c.s:
 	$(MAKE) -f CMakeFiles/prac12.dir/build.make CMakeFiles/prac12.dir/practice12/solution.c.s
 .PHONY : practice12/solution.c.s
 
+practice13/main.o: practice13/main.c.o
+
+.PHONY : practice13/main.o
+
+# target to build an object file
+practice13/main.c.o:
+	$(MAKE) -f CMakeFiles/prac13.dir/build.make CMakeFiles/prac13.dir/practice13/main.c.o
+.PHONY : practice13/main.c.o
+
+practice13/main.i: practice13/main.c.i
+
+.PHONY : practice13/main.i
+
+# target to preprocess a source file
+practice13/main.c.i:
+	$(MAKE) -f CMakeFiles/prac13.dir/build.make CMakeFiles/prac13.dir/practice13/main.c.i
+.PHONY : practice13/main.c.i
+
+practice13/main.s: practice13/main.c.s
+
+.PHONY : practice13/main.s
+
+# target to generate assembly for a file
+practice13/main.c.s:
+	$(MAKE) -f CMakeFiles/prac13.dir/build.make CMakeFiles/prac13.dir/practice13/main.c.s
+.PHONY : practice13/main.c.s
+
+practice13/solution.o: practice13/solution.c.o
+
+.PHONY : practice13/solution.o
+
+# target to build an object file
+practice13/solution.c.o:
+	$(MAKE) -f CMakeFiles/prac13.dir/build.make CMakeFiles/prac13.dir/practice13/solution.c.o
+.PHONY : practice13/solution.c.o
+
+practice13/solution.i: practice13/solution.c.i
+
+.PHONY : practice13/solution.i
+
+# target to preprocess a source file
+practice13/solution.c.i:
+	$(MAKE) -f CMakeFiles/prac13.dir/build.make CMakeFiles/prac13.dir/practice13/solution.c.i
+.PHONY : practice13/solution.c.i
+
+practice13/solution.s: practice13/solution.c.s
+
+.PHONY : practice13/solution.s
+
+# target to generate assembly for a file
+practice13/solution.c.s:
+	$(MAKE) -f CMakeFiles/prac13.dir/build.make CMakeFiles/prac13.dir/practice13/solution.c.s
+.PHONY : practice13/solution.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -926,14 +993,15 @@ help:
 	@echo "... prac12"
 	@echo "... prac04"
 	@echo "... prac05"
-	@echo "... prac07"
 	@echo "... prac06"
 	@echo "... prac10"
 	@echo "... prac08"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... prac11"
 	@echo "... prac09"
-	@echo "... edit_cache"
+	@echo "... prac07"
+	@echo "... prac13"
 	@echo "... practice01/main.o"
 	@echo "... practice01/main.i"
 	@echo "... practice01/main.s"
@@ -1006,6 +1074,12 @@ help:
 	@echo "... practice12/solution.o"
 	@echo "... practice12/solution.i"
 	@echo "... practice12/solution.s"
+	@echo "... practice13/main.o"
+	@echo "... practice13/main.i"
+	@echo "... practice13/main.s"
+	@echo "... practice13/solution.o"
+	@echo "... practice13/solution.i"
+	@echo "... practice13/solution.s"
 .PHONY : help
 
 
